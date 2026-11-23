@@ -15,5 +15,15 @@
   <main id="app" aria-label="Editor Nexor"></main>
   <div id="dialog-root"></div>
   <script type="module" src="./src/main.js"></script>
+<style>
+  #enterprise-intro { width: min(38rem, calc(100vw - 2rem)); max-height: 90vh; padding: 1.4rem; border-radius: 1rem; border: 1px solid #68768b; background: Canvas; color: CanvasText; }
+  #enterprise-intro::backdrop { background: #142138a8; }
+  #enterprise-intro ul { padding-inline-start: 1.3rem; margin-block: .75rem; }
+  #enterprise-intro li + li { margin-block-start: .5rem; }
+  #enterprise-intro a { color: LinkText; text-decoration: underline; }
+  #enterprise-intro form { text-align: right; margin-block-start: 1.25rem; }
+</style>
+<dialog id="enterprise-intro" aria-labelledby="enterprise-heading"><h2 id="enterprise-heading">Nexor Enterprise</h2><p>We build and deploy a paid Enterprise edition to order. Examples of what we can develop and extend for your organization are listed below.</p><ul><li>Central control for workflow libraries and versions across teams and servers.</li><li>Connectors for internal APIs, databases and file services.</li><li>Separate editing, approval and execution roles with change history.</li></ul><p>For an Enterprise edition or custom development, contact us at <a href="https://verobots.eu/" target="_blank" rel="noopener noreferrer">verobots.eu</a> or <a href="https://olarian.com/" target="_blank" rel="noopener noreferrer">olarian.com</a>.</p><form method="dialog"><button type="submit" autofocus>Continue</button></form></dialog>
+<script type="module" src="./src/enterprise.js"></script>
 </body>
 </html>

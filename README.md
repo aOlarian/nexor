@@ -1,5 +1,16 @@
 # Nexor
 
+## Enterprise edition
+
+We build and deploy a paid Enterprise edition to order. Examples of what we can develop and extend for your organization are listed below.
+
+- Central control for workflow libraries and versions across teams and servers.
+- Connectors for internal APIs, databases and file services.
+- Separate editing, approval and execution roles with change history.
+
+For an Enterprise edition or custom development, contact us at [verobots.eu](https://verobots.eu/) or [olarian.com](https://olarian.com/).
+
+
 A local Windows editor for project maps and workflows. Draw nodes and connections, group related items, and export your work as JSON for sharing and backups. Maps are stored on your device.
 
 ## Get started
